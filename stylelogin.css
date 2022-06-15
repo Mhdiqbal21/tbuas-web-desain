@@ -21,6 +21,9 @@ a {
     top :50%;
     left: 50%;
 }
+.login input{
+    border: none;
+}
 .login h1{
     text-align: center;
     margin-top: 45px;
@@ -74,29 +77,28 @@ h6{
     font-weight: 300;
 }
 .username-box{
-    margin-left: 21px;
+    margin-left: 35px;
 }
 .username-box p{
     margin-bottom: 1px;
     font-size: 14px;
 }
 .username-box input{
-    width: 230px;
+    width: 210px;
     height: 40px;
     border-radius: 6px;
     text-align: justify;
     padding : 1px 10px;
-    border-color: grey;
 }
 .pass-box{
-    margin-left: 21px;
+    margin-left: 35px;
 }
 .pass-box p{
     margin-bottom: 1px;
     font-size: 14px;
 }
 .pass-box input{
-    width: 230px;
+    width: 210px;
     height: 40px;
     border-radius: 6px;
     text-align: justify;
