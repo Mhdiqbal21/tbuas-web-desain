@@ -1,0 +1,140 @@
+body {
+    background:url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.login {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(2rem);
+    box-sizing: border-box;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    transform: translate(-50%, -50%);
+    top :50%;
+    left: 50%;
+}
+.login h1{
+    text-align: center;
+    margin-top: 45px;
+}
+.garis{
+    width: 70px;
+    height: 5px;    
+    padding-top: 1px;
+    margin-left: 115px;
+    margin-top: -18px;
+    margin-bottom: 3px;
+    background: linear-gradient(to right, #8a5d2a, #f1ee0d);  
+}
+.btn-sosmed{
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.lingkaran {
+    width: 30px;
+	height: 30px;
+	background: #ffffff;
+	border-radius: 100%;
+    border: 1px solid rgb(184, 178, 178);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    box-shadow: 0px 5px 10px -5px rgba(173,165,165,1);
+}
+.lingkaran img{
+    padding-top: 3px;
+}
+.lingkaran .facebook{
+    margin-top: 3px;
+}
+.lingkaran .twitter{
+    width: 20px;
+    margin-top: 2px;
+}
+.lingkaran .gugel{
+    width: 22px;
+    margin-top: 1px;
+}
+h6{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: grey;
+    font-weight: 300;
+}
+.username-box{
+    margin-left: 21px;
+}
+.username-box p{
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+.username-box input{
+    width: 230px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: justify;
+    padding : 1px 10px;
+    border-color: grey;
+}
+.pass-box{
+    margin-left: 21px;
+}
+.pass-box p{
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+.pass-box input{
+    width: 230px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: justify;
+    padding : 1px 10px;
+    border-color: grey;
+}
+.remember-me{
+    margin-left: 21px;
+    font-size: 12px;
+    float: left ;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    float: left;
+    margin-top: 5px;
+}
+.remember-me input{
+    margin-top: 0.5px;
+}
+.remember-me .fpass{
+    float: right;
+    margin-left: 57px;
+}
+.btn-login {
+    text-align: center;
+    margin: 50px 0;
+}
+.masuk{
+    background: linear-gradient(to right, #8a5d2a, #f1ee0d);
+}
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+.btn:hover {
+    opacity: 1;
+}
