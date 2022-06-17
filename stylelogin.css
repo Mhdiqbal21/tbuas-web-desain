@@ -55,6 +55,9 @@ a {
     margin-top: 4px;
     box-shadow: 0px 5px 10px -5px rgba(173,165,165,1);
 }
+.lingkaran:hover{
+    opacity: 1;
+}
 .lingkaran img{
     padding-top: 3px;
 }
@@ -128,6 +131,12 @@ h6{
 }
 .masuk{
     background: linear-gradient(to right, #8a5d2a, #f1ee0d);
+    box-shadow: 0 5px #a3a10c;
+}
+.masuk:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
 }
 .btn{
     padding: 12px 24px;
@@ -136,6 +145,8 @@ h6{
     opacity: 0.8;
     border-radius: 4px;
     text-align: center;
+    animation: 1s ease 1s;
+    transition: 0.24s;
 }
 .btn:hover {
     opacity: 1;
