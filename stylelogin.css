@@ -1,5 +1,5 @@
 body {
-    background:url(img/bg.jpg);
+    background:url(img/b1.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -11,8 +11,8 @@ a {
 .login {
     width: 300px;
     height: 450px;
-    background-color: rgb(255, 255, 255, 0.3);
-    backdrop-filter: blur(2rem);
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(1rem);
     box-sizing: border-box;
     position: absolute;
     color: rgb(0, 0, 0);
@@ -35,7 +35,7 @@ a {
     margin-left: 115px;
     margin-top: -18px;
     margin-bottom: 3px;
-    background: linear-gradient(to right, #8a5d2a, #f1ee0d);  
+    background: linear-gradient(to right, #283997, #8e0fb4);  
 }
 .btn-sosmed{
     text-align: center;
@@ -130,8 +130,8 @@ h6{
     margin: 50px 0;
 }
 .masuk{
-    background: linear-gradient(to right, #8a5d2a, #f1ee0d);
-    box-shadow: 0 5px #a3a10c;
+    background: linear-gradient(to right, #283997, #8e0fb4);
+    box-shadow: 0 5px #780ca3;
 }
 .masuk:active{
     position: relative;
