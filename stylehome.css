@@ -64,11 +64,6 @@ nav ul li a{
 .btn:hover {
     opacity: 1;
 }
-/* .main1{
-    display: flex;
-    justify-content: center;
-    width: 1340px;
-} */
 
 /* mainkan */
 .main1{
@@ -152,4 +147,92 @@ nav ul li a{
 }
 .clear {
     clear: left;
+}
+/* working */
+.work {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #353535;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.working{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.heading-work {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+.heading-work h2 {
+    font-weight: bold;
+}  
+.work-icon {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color: #bebebe;
+    border-radius: 12px;
+}
+.work-icon img{
+    margin-top: 17px;
+    width: 310px;
+}
+.work-icon p {
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+/* contact */
+.contact{
+   height: 180px;
+   text-align: center;
+   padding-bottom: 80px;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+.contact-icon a{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin:0 100px;
+}
+.contact-icon {
+    height: 60px;
+    width: 250px;
+    background-color:#bebebe ;
+    border-radius: 12px;
+    border: 1px solid rgb(199, 199, 199);
+}
+.contact-icon img{
+    margin-top: 9px;
+    margin-left: 15px;
+    width: 40px;
+    float: left;
+}
+.whatsapp{
+    margin-top: 15px;
+}
+.telegram{
+    margin-top: 15px;
+}
+.instagram{
+    margin-top: 15px;
+}
+/* footer */
+footer{
+    text-align: center;
+    color: white;
+    background-color: #000000;
 }
