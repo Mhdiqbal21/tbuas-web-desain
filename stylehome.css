@@ -69,20 +69,87 @@ nav ul li a{
     justify-content: center;
     width: 1340px;
 } */
+
+/* mainkan */
 .main1{
     /* padding: 10px 0; */
-    background-image: url(img/bg1fix.png);
+    background-image: url(img/fixbgmain.png);
     background-size: cover;
     color: white;
+    height: 590px;
 }
 .main1{
     display: flex;
-    justify-content: space-between;
-}
-.textryzen{
-    margin-top: 70px;
-}
-.textryzen h1{
-    font-size: 60px;
 }
 
+.text-bg{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.text-bg h1{
+    font-size: 70px;
+    width: 500px;
+    line-height: 80px;
+    /* border: 1px solid red; */
+}
+.text-bg p{
+    padding-top: 10px;
+    /* border: 1px solid red; */
+    width: 600px;
+    font-size: 25px;
+}
+@media screen and (max-width:600px) {
+    .main1{
+        width: 100%;
+
+    }
+}
+
+/* trust */
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.trust {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff;
+    text-align: center;
+}
+.heading {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: #000000;
+}
+.heading h2 {
+    font-weight: bold;
+}
+.trusted {
+    float: left;
+    width: 33%;
+}
+  
+.trused-icon {
+    position: relative;
+}
+  
+.trused-icon p {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+.clear {
+    clear: left;
+}
