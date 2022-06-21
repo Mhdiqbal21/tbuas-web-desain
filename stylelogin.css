@@ -1,5 +1,5 @@
 body {
-    background:url(img/b1.jpg);
+    background:url(img/bglogin.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -12,7 +12,7 @@ a {
     width: 300px;
     height: 450px;
     background-color: rgb(255, 255, 255, 0.2);
-    backdrop-filter: blur(1rem);
+    /* backdrop-filter: blur(1rem); */
     box-sizing: border-box;
     position: absolute;
     color: rgb(0, 0, 0);
@@ -28,6 +28,9 @@ a {
     text-align: center;
     margin-top: 45px;
 }
+.login h6{
+    color: white;
+}
 .garis{
     width: 70px;
     height: 5px;    
@@ -35,7 +38,7 @@ a {
     margin-left: 115px;
     margin-top: -18px;
     margin-bottom: 3px;
-    background: linear-gradient(to right, #283997, #8e0fb4);  
+    background: linear-gradient(to right, #2c2d30, #867f88);  
 }
 .btn-sosmed{
     text-align: center;
@@ -80,28 +83,28 @@ h6{
     font-weight: 300;
 }
 .username-box{
-    margin-left: 35px;
+    margin-left: 30px;
 }
 .username-box p{
     margin-bottom: 1px;
     font-size: 14px;
 }
 .username-box input{
-    width: 210px;
+    width: 220px;
     height: 40px;
     border-radius: 6px;
     text-align: justify;
     padding : 1px 10px;
 }
 .pass-box{
-    margin-left: 35px;
+    margin-left: 30px;
 }
 .pass-box p{
     margin-bottom: 1px;
     font-size: 14px;
 }
 .pass-box input{
-    width: 210px;
+    width: 220px;
     height: 40px;
     border-radius: 6px;
     text-align: justify;
@@ -125,13 +128,19 @@ h6{
     float: right;
     margin-left: 57px;
 }
+.remember-me .fpass a{
+    color: black;
+}
+.remember-me .fpass a:hover{
+    color: #ffffff;
+}
 .btn-login {
     text-align: center;
     margin: 50px 0;
 }
 .masuk{
-    background: linear-gradient(to right, #283997, #8e0fb4);
-    box-shadow: 0 5px #780ca3;
+    background: linear-gradient(to right, #2c2d30, #867f88);
+    box-shadow: 0 5px #464347;
 }
 .masuk:active{
     position: relative;

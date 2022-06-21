@@ -1,0 +1,74 @@
+.intel{
+    background-image: url(img/intel-product/Group8.png);
+    background-size: cover;
+    color: white;
+    height: 570px;
+    display: flex;
+}
+.heading{
+    color: white;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 5px ;
+}
+.heading h1{
+    margin-top: 15px;
+    font-size: 50px;
+}
+.img-product img{
+    margin-top: 95px;
+    margin-bottom: 95px;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+/* product icon */
+.product-icon {
+    position: relative;
+    width: 260px;
+    height: 330px;
+    background-color: #bebebe;
+    border-radius: 12px;
+}
+.product-icon:hover{
+
+}
+.product-icon img{
+    margin-top: 0px;
+    border-radius: 12px 12px 0 0;
+    width: 260px;
+}
+.product-icon p {
+    position: absolute;
+    top: 82%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-left: 5px;
+}
+.harga{
+    margin-top: 22px;
+    font-weight: bold;
+}
+.product{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    height: 468px;
+}
+.productkan{
+    /* border: 1px solid red;   */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    width: 1000px;
+    align-items: center;
+}
+/* amd */
+.amd{
+    background-image: url(img/amd-product/bg.png);
+    background-size: cover;
+    color: white;
+    height: 570px;
+    display: flex; 
+}
