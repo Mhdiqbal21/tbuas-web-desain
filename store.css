@@ -72,3 +72,8 @@
     height: 570px;
     display: flex; 
 }
+/* vga */
+.heading p{
+    color: black;
+    font-size: 25px;
+}
