@@ -25,12 +25,9 @@
 .product-icon {
     position: relative;
     width: 260px;
-    height: 330px;
-    background-color: #bebebe;
+    height: 320px;
+    background-color: #ffffff;
     border-radius: 12px;
-}
-.product-icon:hover{
-
 }
 .product-icon img{
     margin-top: 0px;
