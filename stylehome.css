@@ -234,7 +234,7 @@ nav ul li a{
     margin-top: 15px;
 }
 .contact-icon:hover{
-    margin-top: -15px;
+    margin-top: -10px;
     box-shadow: 4px 4px 4px;
     color: rgb(24, 23, 23);
 }
